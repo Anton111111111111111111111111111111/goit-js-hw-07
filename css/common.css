@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #fafafa; */
+  color: #212121;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+img {
+  display: block;
+}
+
+.item {
+  padding: 16px;
+  background-color: #f6f6fe;
+  width: 392px;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 24px;
+  font-family: 'Montserrat';
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.item-point {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  height: 40px;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  color: #2e2f42;
+  border: solid, 1px, #808080;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  justify-content: center;
+  padding: 100px 156px;
+  width: 1440px;
+}
+
+.gallery-item {
+  border-radius: 5px;
+}
+
+input {
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 16px;
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  font-size: 16px;
+  outline: none;
+}
+
+input:hover {
+  border-color: #000;
+}
+
+input:focus {
+  border: 1px solid #808080;
+}
+
+.input-field {
+  margin-bottom: 16px;
+}
+
+.greeting {
+  font-size: 24px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.33;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 8px;
+  font-family: 'Montserrat';
+  letter-spacing: 0.04em;
+  font-weight: 400;
+}
+
+button {
+  margin-top: 8px;
+  width: 86px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #4e75ff;
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background-color: #6c8cff;
+}
+
+.widget {
+  padding: 100px 88px;
+}
+
+.text {
+  font-family: 'Montserrat';
+  letter-spacing: 0.04em;
+  font-weight: 400;
+}
+
+.change-color {
+  width: 148px;
+}
