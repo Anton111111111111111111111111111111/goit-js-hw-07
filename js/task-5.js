@@ -11,5 +11,5 @@ btnElem.addEventListener('click', evt => {
   const newColor = getRandomHexColor();
   bodyElem.style.backgroundColor = `${newColor}`;
   spanElem.style.color = `${newColor}`;
-  // spanElem.textContent = `${newColor}`;
+  spanElem.textContent = `${newColor}`;
 });
